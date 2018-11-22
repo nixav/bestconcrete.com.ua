@@ -1,0 +1,419 @@
+# Translation of Plugins - WooCommerce Gutenberg Products Block - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - WooCommerce Gutenberg Products Block - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-30 18:42:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - WooCommerce Gutenberg Products Block - Stable (latest release)\n"
+
+#: includes/class-wgpb-products-controller.php:772
+msgid "Meta value."
+msgstr "Мета значення."
+
+#: includes/class-wgpb-products-controller.php:767
+msgid "Meta key."
+msgstr "Мета ключ."
+
+#: includes/class-wgpb-products-controller.php:761
+msgid "Meta ID."
+msgstr "Мета ідентифікатор."
+
+#: includes/class-wgpb-products-controller.php:754
+msgid "Meta data."
+msgstr "Мета дані."
+
+#: includes/class-wgpb-products-controller.php:749
+msgid "Menu order, used to custom sort products."
+msgstr "Порядок меню, використовуваний для користувацького сортування товарів."
+
+#: includes/class-wgpb-products-controller.php:740
+msgid "List of grouped products ID."
+msgstr "Список згрупованих ідентифікаторів товарів."
+
+#: includes/class-wgpb-products-controller.php:731
+msgid "List of variations IDs."
+msgstr "Список ідентифікаторів варіацій."
+
+#: includes/class-wgpb-products-controller.php:723
+msgid "Selected attribute term name."
+msgstr "Обрана назва значення атрибута."
+
+#: includes/class-wgpb-products-controller.php:706
+msgid "Defaults variation attributes."
+msgstr "Атрибути варіації за замовчуванням."
+
+#: includes/class-wgpb-products-controller.php:695
+msgid "List of available term names of the attribute."
+msgstr "Список  доступних назв значень атрибута."
+
+#: includes/class-wgpb-products-controller.php:689
+msgid "Define if the attribute can be used as variation."
+msgstr "Визначає чи атрибут можна використати як варіацію."
+
+#: includes/class-wgpb-products-controller.php:683
+msgid "Define if the attribute is visible on the \"Additional information\" tab in the product's page."
+msgstr "Визначає чи атрибут буде видимим у вкладці \"Додаткова інформація\" сторінки товару."
+
+#: includes/class-wgpb-products-controller.php:678
+msgid "Attribute position."
+msgstr "Позиція атрибуту."
+
+#: includes/class-wgpb-products-controller.php:673
+#: includes/class-wgpb-products-controller.php:718
+msgid "Attribute name."
+msgstr "Назва атрибуту."
+
+#: includes/class-wgpb-products-controller.php:668
+#: includes/class-wgpb-products-controller.php:713
+msgid "Attribute ID."
+msgstr "Ідентифікатор атрибуту."
+
+#: includes/class-wgpb-products-controller.php:661
+msgid "List of attributes."
+msgstr "Список атрибутів."
+
+#: includes/class-wgpb-products-controller.php:653
+msgid "Image alternative text."
+msgstr "Альтернативний текст зображення."
+
+#: includes/class-wgpb-products-controller.php:648
+msgid "Image name."
+msgstr "Назва зображення."
+
+#: includes/class-wgpb-products-controller.php:642
+msgid "Image URL."
+msgstr "URL зображення."
+
+#: includes/class-wgpb-products-controller.php:636
+msgid "The date the image was last modified, as GMT."
+msgstr "Дата останньої зміни зображення, за GMT."
+
+#: includes/class-wgpb-products-controller.php:630
+msgid "The date the image was last modified, in the site's timezone."
+msgstr "Дата останньої зміни зображення, згідно часового поясу сайту."
+
+#: includes/class-wgpb-products-controller.php:624
+msgid "The date the image was created, as GMT."
+msgstr "Дата створення зображення, за GMT."
+
+#: includes/class-wgpb-products-controller.php:618
+msgid "The date the image was created, in the site's timezone."
+msgstr "Дата створення зображення, згідно часового поясу сайту."
+
+#: includes/class-wgpb-products-controller.php:613
+msgid "Image ID."
+msgstr "Ідентифікатор зображення."
+
+#: includes/class-wgpb-products-controller.php:606
+msgid "List of images."
+msgstr "Список зображень."
+
+#: includes/class-wgpb-products-controller.php:597
+msgid "Tag slug."
+msgstr "Слаґ позначки."
+
+#: includes/class-wgpb-products-controller.php:591
+msgid "Tag name."
+msgstr "Назва позначки."
+
+#: includes/class-wgpb-products-controller.php:586
+msgid "Tag ID."
+msgstr "Ідентифікатор позначки."
+
+#: includes/class-wgpb-products-controller.php:579
+msgid "List of tags."
+msgstr "Список позначок."
+
+#: includes/class-wgpb-products-controller.php:570
+msgid "Category slug."
+msgstr "Слаґ категорії."
+
+#: includes/class-wgpb-products-controller.php:564
+msgid "Category name."
+msgstr "Назва категорії."
+
+#: includes/class-wgpb-products-controller.php:559
+msgid "Category ID."
+msgstr "Ідентифікатор категорії."
+
+#: includes/class-wgpb-products-controller.php:552
+msgid "List of categories."
+msgstr "Список категорій."
+
+#: includes/class-wgpb-products-controller.php:547
+msgid "Optional note to send the customer after purchase."
+msgstr "Можливе сповіщення для надсилання покупцю після покупки."
+
+#: includes/class-wgpb-products-controller.php:542
+msgid "Product parent ID."
+msgstr "Ідентифікатор  предка товару."
+
+#: includes/class-wgpb-products-controller.php:534
+msgid "List of cross-sell products IDs."
+msgstr "Список ідентифікаторів супутніх товарів, для покупки разом (cross-sell)."
+
+#: includes/class-wgpb-products-controller.php:526
+msgid "List of up-sell products IDs."
+msgstr "Список ідентифікаторів товарів для росту продаж (up-sell)."
+
+#: includes/class-wgpb-products-controller.php:517
+msgid "List of related products IDs."
+msgstr "Список ідентифікаторів пов'язаних товарів."
+
+#: includes/class-wgpb-products-controller.php:511
+msgid "Amount of reviews that the product have."
+msgstr "Кількість відгуків товару."
+
+#: includes/class-wgpb-products-controller.php:505
+msgid "Reviews average rating."
+msgstr "Середня оцінка відгуків."
+
+#: includes/class-wgpb-products-controller.php:499
+msgid "Allow reviews."
+msgstr "Дозволити відгуки."
+
+#: includes/class-wgpb-products-controller.php:493
+msgid "Shipping class ID."
+msgstr "Ідентифікатор класу доставки."
+
+#: includes/class-wgpb-products-controller.php:488
+msgid "Shipping class slug."
+msgstr "Слаґ класу доставки."
+
+#: includes/class-wgpb-products-controller.php:482
+msgid "Shows whether or not the product shipping is taxable."
+msgstr "Показує чи доставка товару оподатковується."
+
+#: includes/class-wgpb-products-controller.php:476
+msgid "Shows if the product need to be shipped."
+msgstr "Показує чи треба доставляти товар."
+
+#. translators: %s: dimension unit
+#: includes/class-wgpb-products-controller.php:469
+msgid "Product height (%s)."
+msgstr "Висота товару (%s)."
+
+#. translators: %s: dimension unit
+#: includes/class-wgpb-products-controller.php:463
+msgid "Product width (%s)."
+msgstr "Ширина товару (%s)."
+
+#. translators: %s: dimension unit
+#: includes/class-wgpb-products-controller.php:457
+msgid "Product length (%s)."
+msgstr "Довжина товару (%s)."
+
+#: includes/class-wgpb-products-controller.php:451
+msgid "Product dimensions."
+msgstr "Габарити товару."
+
+#. translators: %s: weight unit
+#: includes/class-wgpb-products-controller.php:446
+msgid "Product weight (%s)."
+msgstr "Вага товару (%s)."
+
+#: includes/class-wgpb-products-controller.php:439
+msgid "Allow one item to be bought in a single order."
+msgstr "Дозволити купувати один товар на одне замовлення."
+
+#: includes/class-wgpb-products-controller.php:433
+msgid "Shows if the product is on backordered."
+msgstr "Показує чи товар зарезервовано."
+
+#: includes/class-wgpb-products-controller.php:427
+msgid "Shows if backorders are allowed."
+msgstr "Показує чи дозволене резервування."
+
+#: includes/class-wgpb-products-controller.php:420
+msgid "If managing stock, this controls if backorders are allowed."
+msgstr "Якщо керування запасами увімкнене, це керує чи дозволене резервування."
+
+#: includes/class-wgpb-products-controller.php:414
+msgid "Controls whether or not the product is listed as \"in stock\" or \"out of stock\" on the frontend."
+msgstr "Контролює, чи буде продукт враховуватися як \"В наявності\" або \"Відсутній в наявності\" у фронтенді."
+
+#: includes/class-wgpb-products-controller.php:409
+msgid "Stock quantity."
+msgstr "Кількість в запасі."
+
+#: includes/class-wgpb-products-controller.php:403
+msgid "Stock management at product level."
+msgstr "Керування запасами на рівні товарів."
+
+#: includes/class-wgpb-products-controller.php:398
+msgid "Tax class."
+msgstr "Клас податку."
+
+#: includes/class-wgpb-products-controller.php:391
+msgid "Tax status."
+msgstr "Статус податку."
+
+#: includes/class-wgpb-products-controller.php:386
+msgid "Product external button text. Only for external products."
+msgstr "Зовнішній текст кнопки товару. Тільки для зовнішніх товарів."
+
+#: includes/class-wgpb-products-controller.php:380
+msgid "Product external URL. Only for external products."
+msgstr "Зовнішній URL товару. Тільки для зовнішніх товарів."
+
+#: includes/class-wgpb-products-controller.php:374
+msgid "Number of days until access to downloadable files expires."
+msgstr "Днів до закінчення доступу до завантажуваних файлів."
+
+#: includes/class-wgpb-products-controller.php:368
+msgid "Number of times downloadable files can be downloaded after purchase."
+msgstr "Кількість дозволених завантажувань для файлів, після покупки."
+
+#: includes/class-wgpb-products-controller.php:360
+msgid "File URL."
+msgstr "URL файлу."
+
+#: includes/class-wgpb-products-controller.php:355
+msgid "File name."
+msgstr "Назва файлу."
+
+#: includes/class-wgpb-products-controller.php:349
+msgid "File MD5 hash."
+msgstr "MD5 хеш файлу."
+
+#: includes/class-wgpb-products-controller.php:342
+msgid "List of downloadable files."
+msgstr "Список завантажуваних файлів."
+
+#: includes/class-wgpb-products-controller.php:336
+msgid "If the product is downloadable."
+msgstr "Якщо товар можна завантажити."
+
+#: includes/class-wgpb-products-controller.php:330
+msgid "If the product is virtual."
+msgstr "Якщо товар віртуальний."
+
+#: includes/class-wgpb-products-controller.php:324
+msgid "Amount of sales."
+msgstr "Обсяг продаж."
+
+#: includes/class-wgpb-products-controller.php:318
+msgid "Shows if the product can be bought."
+msgstr "Показує чи товар можна купити."
+
+#: includes/class-wgpb-products-controller.php:312
+msgid "Shows if the product is on sale."
+msgstr "Показує чи товар на розпродажі."
+
+#: includes/class-wgpb-products-controller.php:306
+msgid "Price formatted in HTML."
+msgstr "Ціна у форматі HTML."
+
+#: includes/class-wgpb-products-controller.php:296
+#: includes/class-wgpb-products-controller.php:301
+msgid "End date of sale price, in the site's timezone."
+msgstr "Дата закінчення розпродажу, за часовим поясом сайту."
+
+#: includes/class-wgpb-products-controller.php:291
+msgid "Start date of sale price, as GMT."
+msgstr "Дата початку розпродажу, за GMT."
+
+#: includes/class-wgpb-products-controller.php:286
+msgid "Start date of sale price, in the site's timezone."
+msgstr "Дата початку розпродажу, за часовим поясом сайту."
+
+#: includes/class-wgpb-products-controller.php:281
+msgid "Product sale price."
+msgstr "Розпродажна ціна товару."
+
+#: includes/class-wgpb-products-controller.php:276
+msgid "Product regular price."
+msgstr "Звичайна ціна товару."
+
+#: includes/class-wgpb-products-controller.php:270
+msgid "Current product price."
+msgstr "Поточна ціна товару."
+
+#: includes/class-wgpb-products-controller.php:265
+msgid "Unique identifier."
+msgstr "Унікальний ідентифікатор."
+
+#: includes/class-wgpb-products-controller.php:260
+msgid "Product short description."
+msgstr "Короткий опис товару."
+
+#: includes/class-wgpb-products-controller.php:255
+msgid "Product description."
+msgstr "Опис товару."
+
+#: includes/class-wgpb-products-controller.php:248
+msgid "Catalog visibility."
+msgstr "Видимість каталогу."
+
+#: includes/class-wgpb-products-controller.php:242
+msgid "Featured product."
+msgstr "Рекомендований товар."
+
+#: includes/class-wgpb-products-controller.php:235
+msgid "Product status (post status)."
+msgstr "Статус товару (статус запису)"
+
+#: includes/class-wgpb-products-controller.php:228
+msgid "Product type."
+msgstr "Тип товару."
+
+#: includes/class-wgpb-products-controller.php:222
+msgid "The date the product was last modified, as GMT."
+msgstr "Дата останньої зміни товару, за GMT."
+
+#: includes/class-wgpb-products-controller.php:216
+msgid "The date the product was last modified, in the site's timezone."
+msgstr "Дата останньої зміни товару, згідно часового поясу сайту."
+
+#: includes/class-wgpb-products-controller.php:210
+msgid "The date the product was created, as GMT."
+msgstr "Дата створення товару, за GMT."
+
+#: includes/class-wgpb-products-controller.php:204
+msgid "The date the product was created, in the site's timezone."
+msgstr "Дата створення товару, згідно часового поясу сайту."
+
+#: includes/class-wgpb-products-controller.php:197
+msgid "Product URL."
+msgstr "URL товару."
+
+#: includes/class-wgpb-products-controller.php:192
+msgid "Product slug."
+msgstr "Слаґ товару."
+
+#: includes/class-wgpb-products-controller.php:187
+msgid "Product name."
+msgstr "Назва товару."
+
+#: includes/class-wgpb-products-controller.php:181
+msgid "Unique identifier for the resource."
+msgstr "Унікальний ідентифікатор для ресурсу."
+
+#: includes/class-wgpb-products-controller.php:125
+msgid "#%s is an invalid image ID."
+msgstr "#%s неправильний ідентифікатор зображення."
+
+#. Author URI of the plugin/theme
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Автоматично"
+
+#. Description of the plugin/theme
+msgid "WooCommerce Products block for the Gutenberg editor."
+msgstr "Блок товарів WooCommerce для редактора Gutenberg."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+msgstr "https://github.com/woocommerce/woocommerce-gutenberg-products-block"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Gutenberg Products Block"
+msgstr "WooCommerce Gutenberg Products Block"
