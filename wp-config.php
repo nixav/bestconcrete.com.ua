@@ -19,22 +19,22 @@
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
+/** Имя базы данных для WordPress */
+define('DB_NAME', 'tobi_bud');
 
-/** MySQL database username */
+/** Имя пользователя MySQL */
 define('DB_USER', 'root');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'p4ssw0rd!');
+/** Пароль к базе данных MySQL */
+define('DB_PASSWORD', '');
 
-/** MySQL hostname */
-define('DB_HOST', 'db:3306');
+/** Имя сервера MySQL */
+define('DB_HOST', 'localhost:3306');
 
-/** Database Charset to use in creating database tables. */
+/** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
 
-/** The Database Collate type. Don't change this if in doubt. */
+/** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
 
 /**#@+

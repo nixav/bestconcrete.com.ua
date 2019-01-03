@@ -9,3 +9,5 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+AuthName "tobibud"
+AuthUserFile "/home/fitmxezk/.htpasswds/test.bestconcrete.com.ua/passwd"

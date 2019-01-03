@@ -1,0 +1,82 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 03.01.2019 09:32
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.2
+WORDPRESS:	4.9.8
+PHP INFO:	5.6.39 | SAPI: litespeed
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: Unabled to set php memory_limit 
+MEMORY STACK: 27.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported 
+TABLES: total:40 | filtered:0 | create:40 
+FILTERED: [] 
+SQL CREATED: tobi_bud_d3208b0fcf6bac977553_20190103093220_database.sql 
+SQL FILE SIZE: 8.45MB (8857547) 
+SQL FILE TIME: 2019-01-03 09:33:02 
+SQL RUNTIME: 18.13 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/fitmxezk/test.bestconcrete.com.ua 
+ARCHIVE FILE: tobi_bud_d3208b0fcf6bac977553_20190103093220_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	106.21MB 
+STATS:	Dirs 967 | Files 5,054 
+SQL ADDED: tobi_bud_d3208b0fcf6bac977553_20190103093220_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6021
+    [filename] => /home/fitmxezk/test.bestconcrete.com.ua/wp-snapshots/tmp/tobi_bud_d3208b0fcf6bac977553_20190103093220_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 52.04MB 
+ARCHIVE RUNTIME: 154.89 sec. 
+MEMORY STACK: 29.75MB 
+building installer 
+add_extra_files1 
+add_extra_files2 
+add_extra_files3 
+add_extra_files4 
+Doing archive file check 
+add_extra_files5 
+add_extra_files6 
+add_extra_files8 
+Successfully opened zip /home/fitmxezk/test.bestconcrete.com.ua/wp-snapshots/tmp/tobi_bud_d3208b0fcf6bac977553_20190103093220_archive.zip 
+Adding enhanced installer files to archive using ZipArchive 
+Installer files added to archive 
+Added to archive 
+After ziparchive close when adding installer 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 8.45MB 
+Installer File: 32.94KB 
+Archive File: 52.91MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 228.07 sec.
+PEAK PHP MEMORY USED: 31.25MB
+DONE PROCESSING => tobi_bud 03.01.2019 09:36
+ 

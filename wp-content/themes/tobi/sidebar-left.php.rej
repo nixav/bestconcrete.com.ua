@@ -1,0 +1,12 @@
+diff a/sidebar-left.php b/sidebar-left.php	(rejected hunks)
+@@ -17,7 +17,10 @@
+              'status' => 'approve',
+          );
+  
+++<<<<<<< HEAD
+ +
+++=======
+++>>>>>>> Filter appears only in category without children
+          $category_id = get_queried_object()->term_id;
+          if(empty(get_term_children($category_id, 'product_cat')) && !is_shop()) {
+              echo '<ul class="filter">';

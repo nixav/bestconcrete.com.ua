@@ -1,0 +1,8 @@
+2018-12-04T14:19:08+00:00 CRITICAL Cannot redeclare custom_sidebars_replace_not_allowed() (previously declared in /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php:29) в /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php на строке 29
+
+2018-12-04T14:19:27+00:00 CRITICAL Cannot redeclare custom_sidebars_replace_not_allowed() (previously declared in /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php:29) в /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php на строке 29
+
+2018-12-04T14:19:47+00:00 CRITICAL Cannot redeclare custom_sidebars_replace_not_allowed() (previously declared in /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php:29) в /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php на строке 29
+
+2018-12-04T14:30:43+00:00 CRITICAL Cannot redeclare custom_sidebars_replace_not_allowed() (previously declared in /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php:29) в /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/custom-sidebars/views/metabox.php на строке 29
+

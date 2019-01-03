@@ -1,0 +1,11 @@
+diff a/functions.php b/functions.php	(rejected hunks)
+@@ -151,6 +151,9 @@
+  	wp_enqueue_script( 'tobi-common', TEMPLATE_DIRECTORY_URI . '/js/common.js', array(), '', true);
+ +<<<<<<< HEAD
+ +    wp_enqueue_script( 'tobi-woocommerce', TEMPLATE_DIRECTORY_URI . '/js/woocommerce.js', array('tobi-common'), '', true);	
+++=======
++ 	wp_enqueue_script( 'tobi-woocommerce', TEMPLATE_DIRECTORY_URI . '/js/woocommerce.js', array('tobi-common'), '', true);		
+++>>>>>>> Added qty buttons functional
+  	wp_enqueue_script( 'tobi-slick', TEMPLATE_DIRECTORY_URI . '/libs/slick/slick.min.js', array('tobi-common'));
+  
+  	wp_enqueue_script( 'tobi-skip-link-focus-fix', TEMPLATE_DIRECTORY_URI . '/js/skip-link-focus-fix.js', array(), '20151215', true );

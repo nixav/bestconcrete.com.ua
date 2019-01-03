@@ -1,0 +1,9 @@
+diff a/header.php b/header.php	(rejected hunks)
+@@ -53,6 +53,7 @@
+              <div class="l_square"><span></span><span></span><span></span></div>
+              <div class="l_square"><span></span><span></span><span></span></div>
+          </div>
+++<<<<<<< HEAD
+ +    </div>
+ +
+ +    <a href="html" id="button-up"><span>Вверх</span></a>
