@@ -1302,6 +1302,10 @@ nav li a .arrow {
 
 /* main-start */
 
+.slick-slider-sales .price-title, .slick-slider-sales .price {
+    padding: 0 5px;
+}
+
 #wrapper > main > div > button.slick-prev.slick-arrow,
 #wrapper > main > div > button.slick-next.slick-arrow {
     z-index: 1;
@@ -1969,6 +1973,8 @@ nav li a .arrow {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1152px;
+    margin: 0 auto;
 }
 
 .mini-blog-block li {
@@ -1991,6 +1997,7 @@ nav li a .arrow {
     position: absolute;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .shadow-blog-mask {
@@ -3348,7 +3355,6 @@ im-left-top-border im-right-bottom-border .info-icon li span::after,
     position: relative;
     width: 100%;
     height: auto;
-    margin-top: 20px;
 }
 
 .img-slider .slider-img-list img {
@@ -3485,9 +3491,13 @@ im-left-top-border im-right-bottom-border .info-icon li span::after,
     width: 100%;
     background: #fff;
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
     margin-top: 0;
+}
+
+.goods-name > span {
+    font-family: m-bold;
 }
 
 .main-good-cart {
@@ -3705,7 +3715,15 @@ form.cart {
 }
 
 .block-right .charasterisrics ul li span {
+    width: 50%;
+}
+
+.block-right .charasterisrics ul li span:first-child {
     font-family: m-medium;
+}
+
+.block-right .charasterisrics ul li span:last-child {
+    text-align: right;
 }
 
 .good-information {
@@ -4856,7 +4874,12 @@ button[name="woocommerce_checkout_place_order"] {
 }
 
 .article-page .article-text {
-    padding: 20px;
+    margin: 10px 0;
+}
+
+.article-text ul {
+    list-style: disc;
+    margin: 10px 0px 10px 25px;
 }
 
 .article-page .article-text p {

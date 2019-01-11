@@ -30,11 +30,11 @@ if ( post_password_required() ) {
 }
 ?>
 <div id="wrapper-category" class="good-cart">
-	<?php get_sidebar( 'left' ); ?>
+    <?php get_sidebar( 'left' ); ?>
 
-	<div id="product-<?php the_ID(); ?>" <?php wc_product_class('main-good-cart main-container'); ?>>
+    <div id="product-<?php the_ID(); ?>" <?php wc_product_class('main-good-cart main-container'); ?>>
 
-		<?php
+        <?php
 			/**
 			 * Hook: woocommerce_before_single_product_summary.
 			 *
@@ -46,39 +46,42 @@ if ( post_password_required() ) {
 
 			//do_action( 'woocommerce_before_single_product_summary' );
 		?>
-		
-<?php 
+
+        <?php 
 				global $product;
 			    $attachment_ids = $product->get_gallery_attachment_ids();
 
-			    
-
 ?>
-
-				<div class="block-left">
-                    <h1 class="goods-name"><?php the_title(); ?></h1>
-                    <div class="img-slider">
-                        <div class="main-img">
-                            <img src="<?php the_post_thumbnail_url(); ?>" alt="">
-                        </div>
-                        <ul class="slider-img-list">
-                        <li> <img src="<?php the_post_thumbnail_url(); ?>" alt=""></li>
-                        	<?php 
+        <h2 class="goods-name">
+            <span><?php the_title(); ?></span>
+            <span><?php echo get_post_meta($post->ID, 'article', true) ?></span>
+        </h2>
+                
+        <div class="block-left">
+            <div class="img-slider">
+                <div class="main-img">
+                    <img src="<?php the_post_thumbnail_url(); ?>" alt="">
+                </div>
+                <ul class="slider-img-list">
+                    <li> <img src="<?php the_post_thumbnail_url(); ?>" alt=""></li>
+                    <?php 
 
                         	foreach( $attachment_ids as $attachment_id ) {
 						        echo '<li> <img src="' . wp_get_attachment_url( $attachment_id ) . '" alt=""></li>';
 						    }
 
                         	?>
-                        </ul>
-                    </div>
-                </div>
+                </ul>
+            </div>
+            <h3>Связь с менеджером</h3>
+            <?php echo do_shortcode( '[contact-form-7 id="432" title="Связь с менеджером" html_class="contact-form"]' ); ?>
+        </div>
 
 
 
 
-                <div class="block-right">
-                    <!-- <div class="delivery-and-pay">
+        <div class="block-right">
+            <!-- <div class="delivery-and-pay">
                         <button>Доставка и оплата<span><span class="arrow"></span></span></button>
                         <div>
                             Доставка здійснюється тільки по передоплаті. <br><br> Способи доставки:
@@ -95,28 +98,33 @@ if ( post_password_required() ) {
                             </ul> <br> Регіони доставки:<strong> Україна, всі регіони</strong>
                         </div>
                     </div> -->
-                    <div class="price-and-btn">
-                        <div class="price-block">
-                            <?php _e('Цена:', 'tobi'); ?>
-                            <?php if( $product->is_on_sale() ){ ?>
-                                        <div class="sale">
-                                            <p class="last-price"><span><?php echo $product->get_regular_price(); ?></span> грн</p>
-                                            <p class="new-price"><span><?php echo $product->get_sale_price(); ?></span> грн</p>
-                                        </div>
-                            <?php } else { ?>
-                                        <p class="good-price"> <?php echo $product->get_price(); ?> грн</p>
-                            <?php } ?>
-                        </div>
-					<?php woocommerce_template_single_add_to_cart(); ?>
+            <div class="price-and-btn">
+                <div class="price-block">
+                    <?php _e('Цена:', 'tobi'); ?>
+                    <?php if( $product->is_on_sale() ){ ?>
+                    <div class="sale">
+                        <p class="last-price"><span>
+                                <?php echo $product->get_regular_price(); ?></span> грн</p>
+                        <p class="new-price"><span>
+                                <?php echo $product->get_sale_price(); ?></span> грн</p>
                     </div>
+                    <?php } else { ?>
+                    <p class="good-price">
+                        <?php echo $product->get_price(); ?> грн</p>
+                    <?php } ?>
+                </div>
+                <?php woocommerce_template_single_add_to_cart(); ?>
+            </div>
 
-					<?php 
+            <?php 
                             if($product->has_attributes()){
                             ?>
-                            <div class="charasterisrics">
-                            	 <h3><?php _e('Характеристики', 'tobi');?></h3>
-                            	<ul>
-                                <?php 
+            <div class="charasterisrics">
+                <h3>
+                    <?php _e('Характеристики', 'tobi');?>
+                </h3>
+                <ul>
+                    <?php 
                                     $attributes = $product->get_attributes(); 
 
                                     foreach( $attributes as $attribute ){
@@ -126,25 +134,24 @@ if ( post_password_required() ) {
                                         foreach($attribute_values as $attribute_value){
                                             $values[] = $attribute_value->name;
                                         }
-                                        echo '<li>' .  wc_attribute_label( $attribute->get_name() ) . '<span>' . join(', ', $values) . '</span></li>';
+                                        echo '<li><span>' .  wc_attribute_label( $attribute->get_name() ) . '</span><span>' . join(', ', $values) . '</span></li>';
                                     }
                                 
                                 ?>
-                            	</ul>
-                        	</div>
-                            <?php 
+                </ul>
+            </div>
+            <?php 
                                 }
                             ?>
 
-                    <h3>Связь с менеджером</h3>
-                    <?php echo do_shortcode( '[contact-form-7 id="432" title="Связь с менеджером" html_class="contact-form"]' ); ?>
-                </div>
 
-                <h3 class="text-align__center description__title">Описание</h3>
-                <div class="good-information">
-					<?php echo $product->get_description(); ?>
-				</div>
-			<?php
+        </div>
+
+        <h3 class="text-align__center description__title">Описание</h3>
+        <div class="good-information">
+            <?php echo $product->get_description(); ?>
+        </div>
+        <?php
 				/**
 				 * Hook: woocommerce_single_product_summary.
 				 *
@@ -162,7 +169,7 @@ if ( post_password_required() ) {
 			?>
 
 
-		<?php
+        <?php
 			/**
 			 * Hook: woocommerce_after_single_product_summary.
 			 *
@@ -172,6 +179,6 @@ if ( post_password_required() ) {
 			 */
 			//do_action( 'woocommerce_after_single_product_summary' );
 		?>
-	</div>
+    </div>
 </div>
 <?php do_action( 'woocommerce_after_single_product' ); ?>

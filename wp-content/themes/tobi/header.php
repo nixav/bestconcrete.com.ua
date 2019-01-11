@@ -153,7 +153,7 @@
                     </nav><!-- #site-navigation -->
                     <div class="right-menu">
                         <div class="header-search-btn"><span></span></div>
-                        <div class="busket"><span></span></div>
+                        <a href="<?php echo TEMPLATE_DIRECTORY_URI; ?>/cart" class="busket"><span></span></a>
                     </div>
                 </div>
             </div>

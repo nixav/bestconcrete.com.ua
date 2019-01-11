@@ -248,27 +248,6 @@ jQuery(document).ready(function () {
         }
     });
 
-    //    if ($(window).width() < 992) {
-    //
-    //        var clickLangTrg = false;
-    //
-    //        $('.lang-trigger').on('click', function () {
-    //            if (clickLangTrg == false) {
-    //                $('.overlay').slideDown();
-    //                $('.lang-trigger').css('color', '#FFCF4C');
-    //                $('.lang-trigger .arrow').removeClass('arrow-white').addClass('arrow-yellow');
-    //                $('.lang-list').slideDown();
-    //                clickLangTrg = true;
-    //            } else {
-    //                $('.overlay').slideUp();
-    //                $('.lang-trigger').css('color', '#fefefe');
-    //                $('.lang-trigger .arrow').removeClass('arrow-yellow').addClass('arrow-white');
-    //                $('.lang-list').slideUp();
-    //                clickLangTrg = false;
-    //            }
-    //        });
-    //    }
-
     $('.overlay').click(function () {
         $('.overlay').slideUp();
         $('.contact-showmore-btn span').css('color', '#fefefe');
@@ -280,6 +259,21 @@ jQuery(document).ready(function () {
         $('.lang-list').slideUp();
         clickLangTrg = false;
     });
+    
+    // --- Blog blocks (start) ---
+    
+    
+    
+    var postList = $('.mini-blog-block'),
+        lastPost = postList.children().last(),
+        postBlock = $('.mini-blog-block > li'),
+        postsQuantity = $('.mini-blog-block > li').length;
+    
+    if ((postsQuantity % 2) == 1) {
+        lastPost.css('width', 'calc(90% + 30px)');
+    }
+    
+    // --- Blog blocks (end) ---
 
     // --- Слайдеры ---
 
@@ -359,22 +353,6 @@ jQuery(document).ready(function () {
 
     });
 
-    //    $('.slick-slider').slick({
-    //        dots: true,
-    //        arrows: true,
-    //        // адаптация
-    //        infinite: true,
-    //        speed: 400,
-    //        fade: true,
-    //        cssEase: 'linear',
-    //        // определяем скорость перелистывания
-    //        slidesToShow: 1,
-    //        // количество слайдов для показа
-    //        centerMode: true,
-    //        // текущий слайд по центру
-    //        // установим переменную ширину
-    //    });
-
     $('.baner').slick({
         dots: true,
         arrows: true,
@@ -391,78 +369,3 @@ jQuery(document).ready(function () {
         // установим переменную ширину
     });
 });
-
-// --- Delivery show / hide list ---
-
-//    var isClick = false;
-//
-//    $('.delivery-and-pay button').click(function () {
-//        if (isClick == true) {
-//            $(this).find('.arrow').removeClass('arrow-transform');
-//            $('.delivery-and-pay > div').slideUp();
-//            isClick = false;
-//        } else {
-//            $(this).find('.arrow').addClass('arrow-transform');
-//            $('.delivery-and-pay > div').slideDown();
-//            isClick = true;
-//        }
-//    });
-
-// --- Slider img ---
-
-//    $('.slider-img-list li').click(function () {
-//        $('.slider-img-list li').each(function () {
-//            $(this).find('.shadow-img-block').remove()
-//            $(this).find('img').before('<div class="shadow-img-block"></div>');
-//        })
-//        $(this).find('.shadow-img-block').remove();
-//        var imgSrc = $(this).find('img').attr('src');
-//        $('.main-img').find('img').attr('src', imgSrc);
-//    });
-//
-// filter show-hide
-
-//    var isFilterClick = false,
-//        clckBtn;
-//
-//    function hideFilter(clckBtn) {
-//        $('.filter li').slideDown();
-//        $('.btn-block').slideDown();
-//        clckBtn.text('Свернуть');
-//    }
-//
-//    function showFilter(clckBtn) {
-//        $('.filter li').slideUp();
-//        $('.btn-block').slideUp();
-//        clckBtn.text('Развернуть');
-//    }
-//
-//    $('#filter-shw-hd').click(function (event) {
-//        if (isFilterClick) {
-//            hideFilter($(this));
-//            isFilterClick = false;
-//        } else {
-//            showFilter($(this));
-//            isFilterClick = true;
-//        }
-//    });
-
-//    $('#comment-form .stars li').click(function (event) {
-//        $('#comment-form .stars li').each(function (index, el) {
-//            $(this).removeClass('star-click');
-//        });
-//        $(this).addClass('star-click');
-//        $(this).prevAll('li').addClass('star-click')
-//    });
-//
-//    $('#comment-form .stars li').hover(function () {
-//        $('#comment-form .stars li').each(function (index, el) {
-//            $(this).removeClass('star-plus');
-//        });
-//        $(this).addClass('star-plus');
-//        $(this).prevAll('li').addClass('star-plus')
-//    }, function () {
-//        $('#comment-form .stars li').each(function (index, el) {
-//            $(this).removeClass('star-plus');
-//        });
-//    });
