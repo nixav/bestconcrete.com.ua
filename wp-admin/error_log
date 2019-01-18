@@ -2058,3 +2058,6 @@
 [03-Jan-2019 09:30:49 UTC] PHP Warning:  posix_getgrgid() has been disabled for security reasons in /home/fitmxezk/test.bestconcrete.com.ua/wp-admin/includes/class-wp-filesystem-direct.php on line 227
 [03-Jan-2019 09:30:49 UTC] PHP Warning:  posix_getpwuid() has been disabled for security reasons in /home/fitmxezk/test.bestconcrete.com.ua/wp-admin/includes/class-wp-filesystem-direct.php on line 199
 [03-Jan-2019 09:30:49 UTC] PHP Warning:  posix_getgrgid() has been disabled for security reasons in /home/fitmxezk/test.bestconcrete.com.ua/wp-admin/includes/class-wp-filesystem-direct.php on line 227
+[14-Jan-2019 11:17:12 UTC] PHP Warning:  exec() has been disabled for security reasons in /home/fitmxezk/public_html/wp-content/plugins/duplicator/classes/utilities/class.u.php on line 491
+[14-Jan-2019 11:17:12 UTC] PHP Warning:  posix_geteuid() has been disabled for security reasons in /home/fitmxezk/public_html/wp-content/plugins/duplicator/classes/utilities/class.u.php on line 495
+[14-Jan-2019 11:17:12 UTC] PHP Warning:  posix_getpwuid() has been disabled for security reasons in /home/fitmxezk/public_html/wp-content/plugins/duplicator/classes/utilities/class.u.php on line 495

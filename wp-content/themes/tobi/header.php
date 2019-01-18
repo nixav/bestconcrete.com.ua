@@ -95,8 +95,9 @@
     </div>
 
     <ul class="contact-showmore-hidden">
-        <li><a href="tel:+380950068963">+38 (095) 006 - 89 - 63</a></li>
-        <li><a href="tel:+380988533387">+38 (098) 853 - 33 - 87</a></li>
+        <li><a href="tel:+380672742200">+38 (067) 274 - 22 - 00</a></li>
+        <li><a href="tel:+380992742200">+38 (099) 274 - 22 - 00</a></li>
+        <li><a href="tel:+380732742200">+38 (073) 274 - 22 - 00</a></li>
         <li class="or">или</li>
         <li>
             <div class="call-back">
@@ -115,8 +116,9 @@
                             <?php bloginfo( 'name' ); ?> - </strong>
                         <?php bloginfo( 'description' ); ?>
                     </h4>
-                    <a href="tel:+380950068963">+38 (095) 006 - 89 - 63</a>
-                    <a href="tel:+380988533387">+38 (098) 853 - 33 - 87</a>
+                    <a href="tel:+380672742200">+38 (067) 274 - 22 - 00</a>
+                    <a href="tel:+380992742200">+38 (099) 274 - 22 - 00</a>
+                    <a href="tel:+380732742200">+38 (073) 274 - 22 - 00</a>
                     <div class="call-back">
                         <span class="call-icon"></span>
                         <span>Обратный звонок</span>
