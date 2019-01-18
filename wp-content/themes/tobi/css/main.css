@@ -1,7 +1,3 @@
-* {
-    transition: 0.3s;
-}
-
 body,
 html {
     height: 100%;
@@ -4874,7 +4870,7 @@ button[name="woocommerce_checkout_place_order"] {
 }
 
 .article-page .article-text {
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 .article-text ul {
@@ -4907,6 +4903,18 @@ button[name="woocommerce_checkout_place_order"] {
 }
 
 /* --- Article-page (end) --- */
+
+.good-information ul, .category-information ul {
+    list-style: disc;
+}
+
+.good-information ul, .good-information ol, .category-information ul, .category-information ol {
+    padding: 10px 0 10px 30px;
+}
+
+.good-information p, .category-information p {
+    padding: 5px 0;
+}
 
 /* --- Callback-modal (start) --- */
 
