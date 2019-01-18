@@ -5299,11 +5299,13 @@ div.wpcf7-acceptance-missing {
 
 input[type="number"]::-webkit-inner-spin-button, 
 input[type="number"]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none; 
   margin: 0; 
 }
 
 /* --- Shipping and methods (end) ---*/
+
 
 .woocommerce-notices-wrapper {
     width: 90%;
