@@ -32,30 +32,30 @@ if ( empty( $product ) || ! $product->is_visible() ) {
     <div class="name-and-charasteristics">
         <a href="<?php the_permalink(); ?>" class="good-name">
             <?php echo $product->get_title(); ?></a>
-
-        <?php
+        <ul class="characteristics">
+            <?php 
                 if($product->has_attributes()){
-                            ?>
-                            <ul class="characteristics">
-                                <?php 
-                                    $attributes = $product->get_attributes();
-                                    $first_six_attributes = array_slice($attributes, 0, 6);
+            ?>
+            <ul class="characteristics">
+                <?php 
+                    $attributes = $product->get_attributes();
+                    $first_six_attributes = array_slice($attributes, 0, 4);
 
-                                    foreach( $first_six_attributes as $attribute ){
-                                        $attribute_taxonomy = $attribute->get_taxonomy_object();
-                                        $attribute_values = wc_get_product_terms( $product->get_id(), $attribute->get_name(), array( 'fields' => 'all' ) );
-                                        $values = array();
-                                        foreach($attribute_values as $attribute_value){
-                                            $values[] = $attribute_value->name;
-                                        }
-                                        echo '<li><span>' .  wc_attribute_label( $attribute->get_name() ) . '</span><span>' . join(', ', $values) . '</span></li>';
-                                    }
-                                
-                                ?>
-        </ul>
-        <?php 
-                                }
-                            ?>
+                    foreach( $first_six_attributes as $attribute ){
+                        $attribute_taxonomy = $attribute->get_taxonomy_object();
+                        $attribute_values = wc_get_product_terms( $product->get_id(), $attribute->get_name(), array( 'fields' => 'all' ) );
+                        $values = array();
+                        foreach($attribute_values as $attribute_value){
+                            $values[] = $attribute_value->name;
+                        }
+                        echo '<li>' .  wc_attribute_label( $attribute->get_name() ) . '<span>' . join(', ', $values) . '</span></li>';
+                    }
+
+                ?>
+            </ul>
+            <?php 
+                }
+            ?>
     </div>
     <div class="add-to-cart-wrap">
 
@@ -73,19 +73,22 @@ if ( empty( $product ) || ! $product->is_visible() ) {
                             do_action( 'woocommerce_after_add_to_cart_quantity' );
                             ?>
 
-                            <div class="price-and-btn">
-                                <div class="price-block">
-                                    <?php if( $product->is_on_sale() ){ ?>
-                                                <div class="sale">
-                                                    <p class="last-price"><span><?php echo $product->get_regular_price(); ?></span> грн</p>
-                                                    <p class="new-price"><span><?php echo $product->get_sale_price(); ?></span> грн</p>
-                                                </div>
-                                    <?php } else { ?>
-                                                <p class="good-price"> <?php echo $product->get_price(); ?> грн</p>
-                                    <?php } ?>
-                                </div>
-                                <?php woocommerce_template_loop_add_to_cart();?>
-                            </div>
-                        </div>
+        <div class="price-and-btn">
+            <div class="price-block">
+                <?php if( $product->is_on_sale() ){ ?>
+                <div class="sale">
+                    <p class="last-price"><span>
+                            <?php echo $product->get_regular_price(); ?></span> грн</p>
+                    <p class="new-price"><span>
+                            <?php echo $product->get_sale_price(); ?></span> грн</p>
+                </div>
+                <?php } else { ?>
+                <p class="good-price">
+                    <?php echo $product->get_price(); ?> грн</p>
+                <?php } ?>
+            </div>
+            <?php woocommerce_template_loop_add_to_cart();?>
+        </div>
+    </div>
 
 </li>

@@ -53,10 +53,12 @@ if ( post_password_required() ) {
 
 ?>
         <h2 class="goods-name">
-            <span><?php the_title(); ?></span>
-            <span><?php echo get_post_meta($post->ID, 'article', true) ?></span>
+            <span>
+                <?php the_title(); ?></span>
+            <span>
+                <?php echo get_post_meta($post->ID, 'article', true) ?></span>
         </h2>
-                
+
         <div class="block-left">
             <div class="img-slider">
                 <div class="main-img">
@@ -125,7 +127,16 @@ if ( post_password_required() ) {
                 </h3>
                 <ul>
                     <?php 
-                                    $attributes = $product->get_attributes(); 
+                                $attributes = $product->get_attributes();
+                                
+                                global $product;
+                                echo '<h3 itemprop="name" class="product_title entry-title">';
+                                $versionvalues = get_the_terms( $product->id, 'pa_model');
+
+                                foreach ( $versionvalues as $versionvalue ) {
+                                     echo $versionvalue->name;
+                                }
+                                echo '</h3>';
 
                                     foreach( $attributes as $attribute ){
                                         $attribute_taxonomy = $attribute->get_taxonomy_object();
@@ -136,7 +147,6 @@ if ( post_password_required() ) {
                                         }
                                         echo '<li><span>' .  wc_attribute_label( $attribute->get_name() ) . '</span><span>' . join(', ', $values) . '</span></li>';
                                     }
-                                
                                 ?>
                 </ul>
             </div>

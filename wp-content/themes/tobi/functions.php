@@ -203,3 +203,13 @@ function tobi_pre_get_posts($query) {
 }
 
 add_action('pre_get_posts', 'tobi_pre_get_posts');
+
+// ---------- Вывод характеристик в каталоге ----------
+
+function my_template_loop_product_title(){
+    global $product;
+    $versionvalues = get_the_terms( $product->id, 'pa_width');
+
+    echo $versionvalues = get_the_terms( $product->id, 'pa_width');
+
+}
