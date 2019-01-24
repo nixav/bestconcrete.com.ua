@@ -1,4 +1,7 @@
 # BEGIN WordPress
+
+Redirect 301 /cart /checkout
+
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
@@ -8,6 +11,10 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 
+RewriteRule ^/cart/$ https://tobi-bud/checkout/ [R=301,L]
+
 # END WordPress
 AuthName "tobibud"
 AuthUserFile "/home/fitmxezk/.htpasswds/test.bestconcrete.com.ua/passwd"
+
+

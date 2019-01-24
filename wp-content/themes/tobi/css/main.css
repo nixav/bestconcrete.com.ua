@@ -2499,6 +2499,7 @@ im-left-top-border im-right-bottom-border .info-icon li span::after,
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.15);
     line-height: 1.4;
     text-align: justify;
+    width: 100%;
 }
 
 .category-information .category-information__paragraph,
@@ -3504,6 +3505,7 @@ im-left-top-border im-right-bottom-border .info-icon li span::after,
     display: -o-flex;
     display: flex;
     justify-content: space-between;
+    align-content: flex-start;
     flex-wrap: wrap;
 }
 
