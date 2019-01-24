@@ -1,3 +1,22 @@
 [04-Dec-2018 11:09:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/translatepress-multilingual/includes/class-translation-manager.php on line 711
 [06-Dec-2018 13:53:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/fitmxezk/test.bestconcrete.com.ua/wp-content/plugins/translatepress-multilingual/includes/class-translation-manager.php on line 711
 [15-Dec-2018 17:46:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/fitmxezk/test.bestconcrete.com.ua/wp-includes/functions.php on line 330
+[24-Jan-2019 14:22:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:22:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:22:31 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:22:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:22:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:22:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:23:28 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:23:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:24:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:25:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:25:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:25:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:26:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:26:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:26:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:27:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:28:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:28:36 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
+[24-Jan-2019 14:28:37 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/fitmxezk/public_html/wp-content/themes/tobi/functions.php on line 224
