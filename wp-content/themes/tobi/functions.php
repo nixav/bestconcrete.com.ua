@@ -232,12 +232,20 @@ function devvn_product_cat_same_shop_edit_success( $term_id, $taxonomy ) {
 
 add_action('pre_get_posts', 'tobi_pre_get_posts');
 
-// ---------- Вывод характеристик в каталоге ----------
-
-function my_template_loop_product_title(){
-    global $product;
-    $versionvalues = get_the_terms( $product->id, 'pa_width');
-
-    echo $versionvalues = get_the_terms( $product->id, 'pa_width');
-
-}
+/**
+ * Auto update cart after quantity change
+ *
+ * @return  string
+ **/
+add_action( 'wp_footer', 'cart_update_qty_script' );
+function cart_update_qty_script() {
+    if (is_cart()) :
+    ?>
+    <script>
+        jQuery('div.woocommerce').on('change', '.qty', function(){
+            jQuery("[name='update_cart']").trigger("click"); 
+        });
+    </script>
+    <?php
+    endif;
+};

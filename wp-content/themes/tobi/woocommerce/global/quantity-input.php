@@ -28,7 +28,7 @@ if ( $max_value && $min_value === $max_value ) {
 	$labelledby = ! empty( $args['product_name'] ) ? sprintf( __( '%s quantity', 'woocommerce' ), strip_tags( $args['product_name'] ) ) : '';
 	?>
 	<div class="quantity calc-val">
-		 <input class="plus" type="button" value="+" onclick="this.nextElementSibling.stepUp()">
+		 <input class="plus" type="button" value="+">
 		<input
             
             type="number"
@@ -40,11 +40,11 @@ if ( $max_value && $min_value === $max_value ) {
 			name="<?php echo esc_attr( $input_name ); ?>"
 			value="<?php echo esc_attr( $input_value ); ?>"
 			title="<?php echo esc_attr_x( 'Qty', 'Product quantity input tooltip', 'woocommerce' ); ?>"
-			size="4"
+			size="3"
 			pattern="<?php echo esc_attr( $pattern ); ?>"
 			inputmode="<?php echo esc_attr( $inputmode ); ?>"
 			aria-labelledby="<?php echo esc_attr( $labelledby ); ?>" />
-			<input class="minus" type="button" value="-" onclick="this.previousElementSibling.stepDown()">
+			<input class="minus" type="button" value="-">
 
 	</div>
 	<?php
