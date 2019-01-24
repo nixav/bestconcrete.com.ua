@@ -109,26 +109,14 @@ if ( woocommerce_product_loop() ) {
 		}
 	}
 
-	woocommerce_product_loop_end(); ?>
+	woocommerce_product_loop_end(); 
+	do_action( 'woocommerce_after_shop_loop' );
+    
+    ?>
 
 	<div class="category-information">
 		<?php echo term_description(); ?>
 	</div>
-	
-	<?php
-
-	/**
-	 * Hook: woocommerce_after_shop_loop.
-	 *
-	 * @hooked woocommerce_pagination - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop' );
-	?>
-
-
-
-
-
 
  <?php
 } else {
