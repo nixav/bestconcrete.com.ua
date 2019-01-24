@@ -201,26 +201,7 @@ function tobi_pre_get_posts($query) {
         }
     }
 }
-
 add_action('pre_get_posts', 'tobi_pre_get_posts');
-
-/**
- * Auto update cart after quantity change
- *
- * @return  string
- **/
-add_action( 'wp_footer', 'cart_update_qty_script' );
-function cart_update_qty_script() {
-    if (is_cart()) :
-    ?>
-    <script>
-        jQuery('div.woocommerce').on('change', '.qty', function(){
-            jQuery("[name='update_cart']").trigger("click"); 
-        });
-    </script>
-    <?php
-    endif;
-};
 
 function devvn_product_category_base_same_shop_base( $flash = false ){
     $terms = get_terms(array(
@@ -248,3 +229,23 @@ add_action( 'create_term', 'devvn_product_cat_same_shop_edit_success', 10, 2 );
 function devvn_product_cat_same_shop_edit_success( $term_id, $taxonomy ) {
     devvn_product_category_base_same_shop_base(true);
 }
+
+add_action('pre_get_posts', 'tobi_pre_get_posts');
+
+/**
+ * Auto update cart after quantity change
+ *
+ * @return  string
+ **/
+add_action( 'wp_footer', 'cart_update_qty_script' );
+function cart_update_qty_script() {
+    if (is_cart()) :
+    ?>
+    <script>
+        jQuery('div.woocommerce').on('change', '.qty', function(){
+            jQuery("[name='update_cart']").trigger("click"); 
+        });
+    </script>
+    <?php
+    endif;
+};

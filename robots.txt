@@ -1,2 +1,24 @@
 User-agent: *
-Disallow: /
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/themes
+Disallow: /wp-json
+Disallow: /wp-login.php
+Disallow: /cart
+Disallow: /en
+Disallow: /author
+Disallow: /cgi-bin
+Disallow: */feed
+Disallow: */embed
+Disallow: /tag
+Disallow: */rss
+Disallow: *?attachment_
+Disallow: /checkout
+Disallow: *?filter_
+Disallow: *?min_price=
+Disallow: *?s=
+Disallow: *&s=
+Allow: /wp-content/uploads
+
+Host: https://bestconcrete.com.ua
