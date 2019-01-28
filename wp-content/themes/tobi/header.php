@@ -70,7 +70,7 @@
     </div>
 
     <div class="overlay"></div>
-    
+
     <div id="top-search-wrap">
         <div class="container">
             <form class="form-inline" action="<?php echo wc_get_page_permalink( 'shop' ); ?>">
@@ -91,7 +91,7 @@
         <h2>Форма обратной связи</h2>
         <button class="close"></button>
         <!---------- Тут я поменял в строчке id="750" на id="1564" ---------->
-        <?php echo do_shortcode( '[contact-form-7 id="750" title="Обратная связь"]' ); ?>
+        <?php echo do_shortcode( '[contact-form-7 id="1564" title="Обратная связь"]' ); ?>
     </div>
 
     <ul class="contact-showmore-hidden">

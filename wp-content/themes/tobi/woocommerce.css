@@ -472,6 +472,7 @@ p.no-comments {
 	table-layout: fixed;
 	background-color: #0f834d;
 	clear: both;
+    margin: 10px auto;
 }
 
 .woocommerce-info,

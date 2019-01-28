@@ -127,16 +127,9 @@
     .block-right {
         width: 320px;
     }
-
-    .good-cart .main-container {
-        width: 660px !important;
-    }
 }
 
 @media only screen and (max-width: 1180px) {
-    .main-container {
-        width: 680px;
-    }
 
     .category-pg li {
         width: 47%;
@@ -203,7 +196,7 @@
 
     .good-cart .main-container {
         width: 100% !important;
-        margin-left: 0;
+        padding-left: 0;
     }
 
     .good-cart .calc-and-buy-btn {
@@ -284,7 +277,7 @@
 
     /* --- Subcategory page (start) --- */
     .main-container {
-        margin-left: 0;
+        padding-left: 0;
     }
     
     .left-bar {

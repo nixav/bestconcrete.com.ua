@@ -1,8 +1,5 @@
 
 # BEGIN WordPress
-
-Redirect 301 /cart /checkout
-
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
