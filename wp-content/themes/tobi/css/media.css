@@ -240,14 +240,14 @@
     }
 */
 
-    nav li a .arrow {
+    #primary-menu li a .arrow {
         margin-left: 0;
         position: absolute;
         right: 8px;
         top: 8px;
         padding: 19px;
-        background-position: center;
-        background-color: #fbfbfb;
+        background-position: center !important;
+        background-color: #fbfbfb !important;
         transition: 0s;
     }
 
@@ -566,6 +566,15 @@
         width: 100%;
         order: 2;
         margin-top: 10px;
+    }
+    
+    .name-and-charasteristics .good-name {
+        text-align: center;
+        border-top: 2px solid #ddd;
+        margin: 10px 0;
+        border-bottom: 2px solid #ddd;
+        border: 2px solid #ddd;
+        padding: 10px;
     }
 
     .calc-val {

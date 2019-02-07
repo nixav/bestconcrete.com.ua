@@ -63,7 +63,7 @@ get_sidebar('left');
 
 <?php } ?>
 
- 				<h1><?php woocommerce_page_title(); ?></h1>
+ 				<h1 class="category-title"><?php woocommerce_page_title(); ?></h1>
                 <a class="price-link" href="#">Скачать прайс</a>
 
                 <form class="search-form" action="<?php echo wc_get_page_permalink( 'shop' ); ?>">
