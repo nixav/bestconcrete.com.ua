@@ -3716,6 +3716,10 @@ form.cart {
     height: 28px;
 }
 
+.goods-list .charasterisrics, .products .charasterisrics {
+    width: 100%;
+}
+
 .block-right .charasterisrics {
     margin: 20px 0;
     display: -webkit-flex;
