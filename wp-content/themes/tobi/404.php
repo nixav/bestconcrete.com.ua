@@ -1,1 +1,1 @@
-<?php wp_redirect( 'http://www.vashdomen.ua', 301 ); exit; ?>
+<?php wp_redirect( 'http://www.bestconcrete.com.ua', 301 ); exit; ?>
