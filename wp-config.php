@@ -18,7 +18,7 @@
  * @package WordPress
  */
 
-define('DB_NAME', 'tobi_bud');
+define('DB_NAME', 'tobik');
 
 define('DB_USER', 'root');
 
