@@ -18,11 +18,11 @@
  * @package WordPress
  */
 
-define('DB_NAME', 'tobi_bud');
+define('DB_NAME', 'fitmxezk_tobi');
 
-define('DB_USER', 'root');
+define('DB_USER', 'fitmxezk_admin');
 
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'emm8nt[Y,Fkr');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost:3306');

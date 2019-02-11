@@ -2754,7 +2754,7 @@ im-left-top-border im-right-bottom-border .info-icon li span::after,
 
 .goods-list .product a img,
 .products .product a img {
-    object-fit: cover !important;
+    object-fit: contain !important;
     height: 80px !important;
     width: 80px !important;
     border: 1px solid #ccc !important;
